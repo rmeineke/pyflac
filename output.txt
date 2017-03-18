@@ -1,0 +1,19 @@
+Error: 'StreamInfo' object has no attribute 'pictures'
+robertm@Sys76:~/programming/pyflac$ ./set_flac.py
+<class 'mutagen.flac.FLAC'>
+The Bangles (aa)
+In Your Room
+Everything
+Bangles, The (a)
+1988
+01
+13
+Pop
+(composer)
+This is a test file.
+[<Picture 'image/jpeg' (54571 bytes)>]
+44100
+2
+210.6
+[('TITLE', 'In Your Room'), ('ARTIST', 'Bangles, The (a)'), ('ALBUMARTIST', 'The Bangles (aa)'), ('ALBUM', 'Everything'), ('DATE', '1988'), ('TRACKNUMBER', '01'), ('TRACKTOTAL', '13'), ('GENRE', 'Pop'), ('DESCRIPTION', 'This is a test file.'), ('COMPOSER', '(composer)')]
+robertm@Sys76:~/programming/pyflac$
