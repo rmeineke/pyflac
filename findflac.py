@@ -19,6 +19,9 @@ def extract_pic(input):
     file = File(input)
     print('--------------------------------------------')
     print(file)
+    if 'covr' in file or 'APIC:' in file:
+        print('................................<<<')
+    artwork = file.tags['APIC:'].data
     print('--------------------------------------------')
 
     #artwork = file.tags['APIC:'].data
